@@ -351,8 +351,8 @@ model
     lkRealPowerRecoveryDef
     jkVoltageMagnitudeMaintenanceViolationDef
     jkReactivePowerDef
-    jkReactivePowerUpEq.jkVoltageMagnitudeViolationNeg * complementarity model
-    jkReactivePowerLoEq.jkVoltageMagnitudeViolationPos * complementarity model
+    jkReactivePowerUpEq.jkVoltageMagnitudeViolationNeg
+    jkReactivePowerLoEq.jkVoltageMagnitudeViolationPos
 /;
 
 * process into per unit for optimization model

@@ -591,6 +591,7 @@ ftol 1e-4
 ftol_iters 3
 pivot 1e-12
 maxcgit 10
+maxit 200
 maxtime_real 300
 $offecho
 

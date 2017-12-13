@@ -579,7 +579,7 @@ jkVoltageMagnitudeMaintenanceViolationDef.scale(j,k)$(not kBase(k) and sum(l$(lk
 * solver options
 
 $onecho > knitro.opt
-feastol 2.5e-9
+feastol 2.25e-9
 *feastol_abs 1e-2
 opttol 1e-4
 maxcgit 10

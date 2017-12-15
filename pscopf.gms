@@ -729,12 +729,15 @@ $offtext
 * solver options
 pscopf.optfile=1;
 $onecho > knitro.opt
-feastol 1e-8
+feastol 2.25e-09
 opttol 1e-4
 maxcgit 10
 ftol 1e-4
 ftol_iters 3
-maxtime_real 60
+maxtime_real 300
+newpoint 3
+linsolver_pivottol 1e-12
+hessian_no_f 1
 $offecho
 
 * solve penalty formulation
